@@ -1,0 +1,153 @@
+/* b{
+    font-size: 30px;
+}
+.b1{
+    margin-top: 80px;
+}
+.b2{
+    margin-top: -70px;
+    margin-left: 250px;
+}
+.b3{
+   margin-left: 350px;
+   margin-top: 50px;
+}
+.b4{
+   position: absolute;
+   right: 750px;
+   top: 830px;
+}
+.b5{
+    text-align: center;
+    color: green;
+}
+.b6{
+   
+    height: 70px;
+    margin-left: 530px;
+    margin-top: 20px;
+} */
+
+.b5 {
+    text-align: center;
+}
+
+.buytodaybutton {
+    display: flex;
+    justify-content: center;
+}
+.maindivbody1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 0;
+}
+.b1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.boy {
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+.b7{
+  
+    width: 100%;
+    /* height: 500px; */
+    background-image: url("https://i.postimg.cc/6qxJPgYG/background-1815001-1920.jpg");
+    padding: 25px 0;
+}
+.b8{
+   
+
+    /* height: 400px; */
+    /* width: 230px; */
+    /* display: flex;
+    justify-content: center;
+    gap: 15px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+
+.btn {
+    background-color: #ff7100 !important;
+}
+.b9{
+    
+    border: 1px solid black;
+    background-color: #f6f6f6;
+
+}
+
+.buttonsection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonsectionbottom {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.twocardcontainer {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.row {
+    width: 100%;
+}
+
+.image1 {
+    height: 430px;
+}
+
+.b2 {
+    margin: 0 0 0 200px;
+    position: relative;
+    top: -110px;
+}
+
+.cardbody {
+    padding: 10px;
+}
+
+.videoimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+@media only screen and (max-width: 768px) {
+    .maindiv {
+      flex-direction: column-reverse;
+    }
+    .boy{
+        justify-content: center;
+    }
+
+    .ninocontainer {
+        flex-direction: column;
+    }
+
+    .twocardcontainer {
+        justify-content: center !important;
+    }
+  }
+  

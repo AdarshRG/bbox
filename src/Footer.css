@@ -1,0 +1,49 @@
+.f1 {
+  width: 100%;
+  /* height: 300px; */
+  padding: 20px 0px;
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+/* .f2 {
+  display: flex;
+  gap: 70px;
+} */
+.f3 {
+  /* border: 1px solid black; */
+  /* margin-top: 50px */
+}
+.f4 {
+  /* width: 200px; */
+  height: 35px;
+}
+.f5 {
+  width: 250px;
+}
+
+p {
+  margin: 0;
+}
+
+.footermaincontainer {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .footermaincontainer {
+    flex-direction: column;
+  }
+
+  .hiddenmobile {
+    display: none;
+  }
+
+  .sociallogos {
+    position: absolute;
+    left: 345px;
+  }
+}

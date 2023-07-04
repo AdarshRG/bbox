@@ -1,0 +1,153 @@
+.c1{
+width: 100%;
+height: 482px;
+background-image: url("https://i.postimg.cc/nLF9NV3q/tanaphong-toochinda-Gag-C07w-Vvck-unsplash.jpg");
+background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.c2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+.c3{
+    width: 100%;
+/* height: 500px; */
+
+
+}
+.boy {
+    display: flex;
+    align-content: center;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 50%;
+
+}
+.c4{
+    width: 100%;
+height: 300px;
+display: flex;
+justify-content: space-around;
+gap: 20px;
+}
+.ash {
+   
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%; 
+    background-color: #c0c0c0; 
+   
+  }
+  .c6{
+    width: 200px; 
+    height: 250px;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+  }
+  .c7{
+ text-align: center;
+  }
+  .c8{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(209, 247, 247);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .c9{
+    margin-top: 200px;
+    text-align:left ;
+  }
+.c10{
+    margin-left: 250px;
+}
+.c11{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 250px;
+    background-image: url("https://i.postimg.cc/xCS0Ghrq/background-1815001-1920.jpg");
+}
+
+.div1 {
+    margin: 0 !important;
+}
+
+.boytext {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.boyimage {
+    width: 500px;
+}
+
+.maindivbody1 {
+    gap: 30px;
+    padding: 80px 0;
+}
+
+.div360 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.textsection {
+    width: 35%;
+}
+
+@media only screen and (max-width: 630px) {
+.ash {
+    width: 80px;
+    height: 80px;
+}
+
+.c4 {
+    height: 200px;
+}
+
+.typeimage {
+    height: 250px !important;
+}
+
+.f4 {
+    position: absolute;
+    right: -40px;
+    height: 25px;
+}
+
+.boytext {
+    width: 100% !important;
+    justify-content: center !important;
+}
+
+.boy {
+    width: 100% !important;
+    justify-content: center !important;
+}
+
+.maindivbody1 {
+    padding: 30px 0;
+}
+  }
