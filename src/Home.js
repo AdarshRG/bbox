@@ -6,7 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import { Image } from 'react-bootstrap';
-
+import { Link } from 'react-router-dom';
 
 
 
@@ -19,9 +19,9 @@ function Home() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto ">
-            <Nav.Link className='me-4 a1' href="#link">Section 1</Nav.Link>
-            <Nav.Link className='me-4 a1' href="#link">Section 2</Nav.Link>
-            <Nav.Link className='me-4 a1' href="#link">Section 3</Nav.Link>
+          <Link to={"/"}>  <Nav.Link  className='me-4 a1' href="#link">Section 1</Nav.Link></Link>
+           <Link to={"/body1"}> <Nav.Link className='me-4 a1' href="#link">Section 2</Nav.Link></Link>
+           <Link to={"/body2"}> <Nav.Link className='me-4 a1' href="#link">Section 3</Nav.Link></Link>
             <Nav.Link style={{backgroundColor:"red"}} className='me-4 a1' href="#link">shop</Nav.Link>
             <Nav.Link className='' href="#link">Blog</Nav.Link>
             {/* <Nav.Link href="#link">Sign Up</Nav.Link> */}
